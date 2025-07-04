@@ -1,40 +1,49 @@
----
-id: the-basics
-title: The Basics
-sidebar_label: The Basics
-slug: /
----
+// File: src/pages/LocalhostPage.jsx (React + Vite setup)
 
-## Put a locally running HTTP, HTTPS or TLS app on the internet
+import React, { useState } from 'react';
 
-localhost.run is a client-less tool to instantly make a locally running application available on an internet accessible URL.
+const PortChooser = () => {
+  const [port, setPort] = useState(5174);
 
-All major operating systems already have SSH installed, and localhost.run uses SSH as a client, so no download is necessary to use the service and no account setup is needed for free domains.
-
-To connect an internet domain to an application running locally on port 8080 open a command terminal and run:
-
-```bash
-ssh -R 80:localhost:8080 localhost.run
-```
-
-import { useState } from 'react'
-
-export const PortChooser = () => {
-  const [port, setPort] = useState(3000);
   return (
-    <>
-      running on&nbsp;
-      <label for="port">local port</label>
-      &nbsp;
-      <input style={{width: "5em"}} type="number" id="port" name="port" min="1" max="65535" value={port} onChange={(event) => setPort(event.target.value)} />
-      ?
-      use this command:
-      <pre><code parentName="pre" {...{
-              "className": "bash"
-            }}>{`ssh -R 80:localhost:${port} localhost.run
-`}</code></pre>
-    </>
-  )
+    <div style={{ padding: '1em', fontFamily: 'sans-serif' }}>
+      <h2>🌐 Localhost Tunnel Generator</h2>
+      <p>
+        Running on&nbsp;
+        <label htmlFor="port">local port</label>
+        &nbsp;
+        <input
+          style={{ width: '5em' }}
+          type="number"
+          id="port"
+          name="port"
+          min="1"
+          max="65535"
+          value={port}
+          onChange={(e) => setPort(e.target.value)}
+        />
+        ?
+      </p>
+      <p><strong>Use this command:</strong></p>
+      <pre>
+        <code>{`ssh -R 80:localhost:${port} localhost.run`}</code>
+      </pre>
+    </div>
+  );
 };
 
-<PortChooser />
+export default function LocalhostPage() {
+  return (
+    <div className="localhost-page">
+      <h1>🚀 ForgeFlowAI: Local Dev Tunnels</h1>
+      <p>
+        Instantly tunnel your localhost port to the public internet with
+        <code> localhost.run </code>. No setup or download required.
+      </p>
+      <PortChooser />
+    </div>
+  );
+}
+
+// Route this in your router (e.g. React Router)
+// <Route path="/localhost" element={<LocalhostPage />} />
