@@ -1,0 +1,15 @@
+site_name: ForgeFlow Docs
+site_url: https://ITBUILDS.github.io/site
+repo_url: https://github.com/ITBUILDS/site
+repo_name: GitHub
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+
+nav:
+  - Home: docs/index.md
+  - Intro: docs/intro.md

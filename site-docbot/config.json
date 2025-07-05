@@ -1,0 +1,8 @@
+{
+  "default_branch": "main",
+  "default_author": {
+    "name": "Auto Bot",
+    "email": "bot@example.com"
+  },
+  "default_commit_msg": "Auto-update"
+}

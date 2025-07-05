@@ -1,0 +1,162 @@
+{
+  "content": {
+    "name": "intro.md",
+    "path": "docs/intro.md",
+    "sha": "16dd9210be1e4fa3f0d4a97d4f6e111f53c627c1",
+    "size": 22,
+    "url": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+    "html_url": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md",
+    "git_url": "https://api.github.com/repos/ITBUILDS/site/git/blobs/16dd9210be1e4fa3f0d4a97d4f6e111f53c627c1",
+    "download_url": "https://raw.githubusercontent.com/ITBUILDS/site/main/docs/intro.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+      "git": "https://api.github.com/repos/ITBUILDS/site/git/blobs/16dd9210be1e4fa3f0d4a97d4f6e111f53c627c1",
+      "html": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md"
+    }
+  },
+  "commit": {
+    "sha": "4debd7677ca08d2c0e882402bb9b02fb57bf88ab",
+    "node_id": "C_kwDOPG1cLNoAKDRkZWJkNzY3N2NhMDhkMmMwZTg4MjQwMmJiOWIwMmZiNTdiZjg4YWI",
+    "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/4debd7677ca08d2c0e882402bb9b02fb57bf88ab",
+    "html_url": "https://github.com/ITBUILDS/site/commit/4debd7677ca08d2c0e882402bb9b02fb57bf88ab",
+    "author": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:06:52Z"
+    },
+    "committer": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:06:52Z"
+    },
+    "tree": {
+      "sha": "7939db52588e9d71bf6263c8314b3250b0c83d44",
+      "url": "https://api.github.com/repos/ITBUILDS/site/git/trees/7939db52588e9d71bf6263c8314b3250b0c83d44"
+    },
+    "message": "📝 Update intro",
+    "parents": [
+      {
+        "sha": "f31f892954e9fd9b1cfb8125f02be1899398d41e",
+        "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/f31f892954e9fd9b1cfb8125f02be1899398d41e",
+        "html_url": "https://github.com/ITBUILDS/site/commit/f31f892954e9fd9b1cfb8125f02be1899398d41e"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  }
+}
+[✓] docs/intro.md committed @ Sat Jul  5 00:06:51 UTC 2025
+{
+  "content": {
+    "name": "intro.md",
+    "path": "docs/intro.md",
+    "sha": "dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+    "size": 69,
+    "url": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+    "html_url": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md",
+    "git_url": "https://api.github.com/repos/ITBUILDS/site/git/blobs/dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+    "download_url": "https://raw.githubusercontent.com/ITBUILDS/site/main/docs/intro.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+      "git": "https://api.github.com/repos/ITBUILDS/site/git/blobs/dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+      "html": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md"
+    }
+  },
+  "commit": {
+    "sha": "049b84806c73f5ea97203bfff36c8fca8204f079",
+    "node_id": "C_kwDOPG1cLNoAKDA0OWI4NDgwNmM3M2Y1ZWE5NzIwM2JmZmYzNmM4ZmNhODIwNGYwNzk",
+    "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/049b84806c73f5ea97203bfff36c8fca8204f079",
+    "html_url": "https://github.com/ITBUILDS/site/commit/049b84806c73f5ea97203bfff36c8fca8204f079",
+    "author": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:14:22Z"
+    },
+    "committer": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:14:22Z"
+    },
+    "tree": {
+      "sha": "fbade971516df6059a024073d4943a7716ed09c0",
+      "url": "https://api.github.com/repos/ITBUILDS/site/git/trees/fbade971516df6059a024073d4943a7716ed09c0"
+    },
+    "message": "Auto-sync docs/intro.md via sync-docs",
+    "parents": [
+      {
+        "sha": "4debd7677ca08d2c0e882402bb9b02fb57bf88ab",
+        "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/4debd7677ca08d2c0e882402bb9b02fb57bf88ab",
+        "html_url": "https://github.com/ITBUILDS/site/commit/4debd7677ca08d2c0e882402bb9b02fb57bf88ab"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  }
+}
+[✓] docs/intro.md committed @ Sat Jul  5 00:14:22 UTC 2025
+{
+  "content": {
+    "name": "intro.md",
+    "path": "docs/intro.md",
+    "sha": "dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+    "size": 69,
+    "url": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+    "html_url": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md",
+    "git_url": "https://api.github.com/repos/ITBUILDS/site/git/blobs/dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+    "download_url": "https://raw.githubusercontent.com/ITBUILDS/site/main/docs/intro.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ITBUILDS/site/contents/docs/intro.md?ref=main",
+      "git": "https://api.github.com/repos/ITBUILDS/site/git/blobs/dd9d979b3655cdc9ffa23b48c3ab80619c848d86",
+      "html": "https://github.com/ITBUILDS/site/blob/main/docs/intro.md"
+    }
+  },
+  "commit": {
+    "sha": "8038a5cb99f0fef8131aa67afe30051a56fc1f2b",
+    "node_id": "C_kwDOPG1cLNoAKDgwMzhhNWNiOTlmMGZlZjgxMzFhYTY3YWZlMzAwNTFhNTZmYzFmMmI",
+    "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/8038a5cb99f0fef8131aa67afe30051a56fc1f2b",
+    "html_url": "https://github.com/ITBUILDS/site/commit/8038a5cb99f0fef8131aa67afe30051a56fc1f2b",
+    "author": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:21:56Z"
+    },
+    "committer": {
+      "name": "Auto Bot",
+      "email": "bot@example.com",
+      "date": "2025-07-05T00:21:56Z"
+    },
+    "tree": {
+      "sha": "fbade971516df6059a024073d4943a7716ed09c0",
+      "url": "https://api.github.com/repos/ITBUILDS/site/git/trees/fbade971516df6059a024073d4943a7716ed09c0"
+    },
+    "message": "Auto-sync docs/intro.md via sync-docs",
+    "parents": [
+      {
+        "sha": "049b84806c73f5ea97203bfff36c8fca8204f079",
+        "url": "https://api.github.com/repos/ITBUILDS/site/git/commits/049b84806c73f5ea97203bfff36c8fca8204f079",
+        "html_url": "https://github.com/ITBUILDS/site/commit/049b84806c73f5ea97203bfff36c8fca8204f079"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  }
+}
+[✓] docs/intro.md committed @ Sat Jul  5 00:21:55 UTC 2025
