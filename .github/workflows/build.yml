@@ -10,25 +10,30 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
         if: github.event_name == 'push'
         with:
           ref: build
           path: build_final
-      - uses: actions/setup-node@v2
+
+      - uses: actions/setup-node@v4
         with:
           node-version: '14.x'
-      - uses: actions/cache@v2
+
+      - uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+
       - name: build
         run: |
           npm ci
           npm run build
+
       - name: push
         if: github.event_name == 'push'
         run: |
